@@ -1,6 +1,6 @@
 # Physics ML Project
 
-This repository contains the code and data for a machine learning model designed to predict the band gap for material samples based on their properties. The project is built using XGBoost for regression and includes hyperparameter tuning, accuracy assessment, and various performance metrics for scientific evaluation.
+This repository contains the code and data for a machine learning model designed to predict the G0W0 band gap for material samples based on their properties. The project is built using XGBoost for regression and includes hyperparameter tuning, accuracy assessment, and various performance metrics for scientific evaluation.
 
 ## Project Overview
 
