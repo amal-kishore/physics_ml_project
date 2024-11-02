@@ -29,7 +29,7 @@ class DataProcessor:
         
         # Separate features (X) and target (y)
         X = data.drop(["gap_hse", "gap_gw"],axis=1)  # Adjust column name if needed
-        y = data["gap_hse"]               # Adjust column name if needed
+        y = data["gap_gw"]               # Adjust column name if needed
         
         # Split data into training, validation, and test sets
         X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.4, random_state=42)
