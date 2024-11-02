@@ -28,7 +28,7 @@ class DataProcessor:
         data = self.load_data()
         
         # Separate features (X) and target (y)
-        X = data.drop("gap_hse", axis=1)  # Adjust column name if needed
+        X = data.drop(["gap_hse", "gap_gw"],axis=1)  # Adjust column name if needed
         y = data["gap_hse"]               # Adjust column name if needed
         
         # Split data into training, validation, and test sets
