@@ -33,7 +33,7 @@ The project includes the following main components:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/physics_ml_project.git
+   git clone https://github.com/amal-kishore/physics_ml_project.git
    cd physics_ml_project
 2.	Install dependencies:
 bash
