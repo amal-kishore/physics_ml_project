@@ -15,8 +15,8 @@ export MASTER_ADDR="localhost"               # Use localhost if hostname command
 export MASTER_PORT=12345                     # Choose an open port for communication
 
 # Activate virtual environment
-source /lustre/vishal.bharti/amal/physics_ml_project/amal_mp_project_venv/bin/activate
+source /amal/physics_ml_project/amal_mp_project_venv/bin/activate
 
 # Run the Python script
-python /lustre/vishal.bharti/amal/physics_ml_project/launch.py
+python /amal/physics_ml_project/launch.py
 
